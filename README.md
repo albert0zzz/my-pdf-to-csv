@@ -1,6 +1,8 @@
 # my-pdf-to-csv
 ## A small and simple utility written in Batch and Python to automate my repetitive tasks for pdf and excel work.
-I created this project to automate the creation of Excel spreadsheets based on data from PDF documents. The project is written in Batch and Python and I used the command tools from Xpdf as a pdf parser. 
+I created this project to automate the creation of Excel spreadsheets based on data from PDF documents. The goal was to extract a person's phone number, name and email from a PDF file full of miscellaneous information and paste it into a spreadsheet.
+
+The project is written in Batch and Python and I used the command tools from Xpdf as a pdf parser. 
 
 Here is what this utility can do:
 * Extract text from .pdf files and write them to .txt files
@@ -22,6 +24,19 @@ Here are the simplest instructions for working with this utility.
 
 ## Find a bug?
 If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
+
+## Known issues (Work in progress)
+1. If there is a space in the project path, the utility will not work. 
+
+Example:
+
+`C:\cool_folder\my-pdf-to-csv` - the utility will work ✅
+
+`C:\cool folder\my-pdf-to-csv` - the utility will not work ❌
+
+2. After running the script, the old .txt and .csv files remain in the "text_files" and "csv_files" folders.
+  
+I recommend to clean these folders from unnecessary files for the reliability of your data in the tables.
 
 ## Did this project help you?
 If you want to thank the developer for his work, give this project a star! ⭐
