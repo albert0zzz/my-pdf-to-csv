@@ -16,8 +16,9 @@ Here are the simplest instructions for working with this utility.
 2. Copy the .pdf files you need into the "pdf_files" folder
 3. Run "my_pdf_to_csv.bat"
 4. Go to the "csv_files" folder
-5. ???
-6. Profit!!!
+5. Open "extracted_data.csv"
+6. ???
+7. Profit!!!
 
 ## Find a bug?
 If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
