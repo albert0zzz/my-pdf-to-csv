@@ -15,12 +15,13 @@ Here is what this utility can do:
 Here are the simplest instructions for working with this utility.
 
 1. Clone or download this project
-2. Copy the .pdf files you need into the "pdf_files" folder
-3. Run "my_pdf_to_csv.bat"
-4. Go to the "csv_files" folder
-5. Open "extracted_data.csv"
-6. ???
-7. Profit!!!
+2. Install Python: https://www.python.org/downloads/
+3. Copy the .pdf files you need into the "pdf_files" folder
+4. Run "my_pdf_to_csv.bat"
+5. Go to the "csv_files" folder
+6. Open "extracted_data.csv"
+7. ???
+8. Profit!!!
 
 ## Find a bug?
 If you found an issue or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created!
